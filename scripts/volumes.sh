@@ -21,6 +21,7 @@ apt-get update
 apt-get -y install docker-engine
 usermod -aG docker "$USER"
 systemctl enable docker
+service docker start
 
 #Install Python Installer and Docker-Compose
 apt-get -y install python-pip
