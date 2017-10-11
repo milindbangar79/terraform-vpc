@@ -1,5 +1,5 @@
 node {
-   
+   deleteDir()
    stage('Preparation') {
      checkout scm
      downloadTerraform()
